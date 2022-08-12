@@ -1,26 +1,3 @@
---[[
-
-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-  _____           _              _     __  __           _     
-  |_   _|         | |            | |   |  \/  |         | |    
-    | |  _ __  ___| |_ __ _ _ __ | |_  | \  / | ___   __| |____
-    | | | '_ \/ __| __/ _` | '_ \| __| | |\/| |/ _ \ / _` |_  /
-   _| |_| | | \__ \ || (_| | | | | |_  | |  | | (_) | (_| |/ / 
-  |_____|_| |_|___/\__\__,_|_| |_|\__| |_|  |_|\___/ \__,_/___|                                                           
-
-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-
-How to use the menu ? You need a lua executor to inject it, the best is redENGINE you can buy here: www.instant-modz.com
-
-www.instant-modz.com / Buy the best FiveM Lua Executor to use this menu
-www.instant-modz.com / Buy the best FiveM Lua Executor to use this menu
-www.instant-modz.com / Buy the best FiveM Lua Executor to use this menu
-
-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-]] print("www.instant-modz.com")
-
-
-
 local rgb = { r = 0, g = 0, b = 0}
 
 local noclipping = false
@@ -2415,7 +2392,7 @@ Citizen.CreateThread(function()
 			SetDiscordRichPresenceAsset('hydro')
 			SetDiscordRichPresenceAssetText("Hydro Menu On top")
 			SetDiscordRichPresenceAssetSmall('discord')
-			SetDiscordRichPresenceAssetSmallText('discord.gg/ZtZMsyNnMq')
+			SetDiscordRichPresenceAssetSmallText('discord.gg/DXQvMEzKSd')
 		end
 
 		EnableControlAction(0, 344, true)
@@ -4318,7 +4295,7 @@ Citizen.CreateThread(function()
 			elseif HydroMenu.Button("Toggle Drag", "~g~SEM", nil, "Works On Servers With SEM Interaction Menu") then
 				TriggerEvent(HydroMenu.DynamicTriggers.Triggers['DragSEM'])
 			elseif HydroMenu.Button("Police Backup Spam", "~g~SEM", nil, "Works On Servers With SEM Interaction Menu") then
-				TriggerServerEvent("SEM_InteractionMenu:Backup", math.random(1, 3), "Hydro Menu On Top - discord.gg/ZtZMsyNnMq\n" ..math.random(1, 1000))
+				TriggerServerEvent("SEM_InteractionMenu:Backup", math.random(1, 3), "Hydro Menu On Top - discord.gg/DXQvMEzKSd\n" ..math.random(1, 1000))
 			elseif HydroMenu.Button("Spam Chat", "~g~SEM") then
 				local rand = 1
 				for i = 1, 20 do
@@ -4332,7 +4309,7 @@ Citizen.CreateThread(function()
 						rand = rand + 1 
 					end 
 				
-				    TriggerServerEvent("SEM_InteractionMenu:GlobalChat", {0,0,0}, colour .. "Hydro Menu", colour .. "discord.gg/ZtZMsyNnMq | Enjoy Monkeys")
+				    TriggerServerEvent("SEM_InteractionMenu:GlobalChat", {0,0,0}, colour .. "Hydro Menu", colour .. "discord.gg/DXQvMEzKSd | Enjoy Monkeys")
 				end
 			end
 			
@@ -8344,8 +8321,8 @@ function SpamServerChat()
 	    rand = rand + 1 
 	end 
 
-	TriggerServerEvent("_chat:messageEntered", tostring(colour) .. "Hydro Menu", { 255, 255, 255 },  tostring(colour) .. "Hydro Menu on Top | discord.gg/ZtZMsyNnMq")
-	TriggerServerEvent("_chat:messageEntered", tostring(colour) .. "Hydro Menu", { 255, 255, 255 },  tostring(colour) .. "Hydro Menu on Top | discord.gg/ZtZMsyNnMq")
+	TriggerServerEvent("_chat:messageEntered", tostring(colour) .. "Hydro Menu", { 255, 255, 255 },  tostring(colour) .. "Hydro Menu on Top | discord.gg/DXQvMEzKSd")
+	TriggerServerEvent("_chat:messageEntered", tostring(colour) .. "Hydro Menu", { 255, 255, 255 },  tostring(colour) .. "Hydro Menu on Top | discord.gg/DXQvMEzKSd")
 
 	--TriggerServerEvent("_chat:messageEntered", tostring(colour) .. "Hydro Menu", { 255, 255, 255 },  tostring(colour) .. " Hydro Menu on Top Baby, Oooh Nice Skiddy Server. Hydro Detects ur Anticheats")
 end
